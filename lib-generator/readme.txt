@@ -1,4 +1,4 @@
-The tab delimited files are a human-readable starting point for library generations,
+The tab delimited files are a human-readable starting point for library generation,
 tab files contain the following columns:
 1) unique name of the glycan
 2) number of sulfates
