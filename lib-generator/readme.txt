@@ -10,3 +10,6 @@ tab files contain the following columns:
 
 The script reads the tabulated input and produces the libraries of the theorethical GAG forms,
 including different charge states and dibutylamine adducts. The databases are saved as JSON files.
+
+The examples of the JSON libraries for chondroitin/dermatan sulfates (CS/DS) and heparan sulfate (HS)
+can be found in the zip file in this folder.
