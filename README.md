@@ -1,2 +1,2 @@
 # gag-search-dashboard
-Script with web-interface for quantification of glucosaminoglycans (GAGs) in Proteome Discoverer output
+Script for quantification of glucosaminoglycans (GAGs) based on Proteome Discoverer output, with web-interface powered by Bokeh
