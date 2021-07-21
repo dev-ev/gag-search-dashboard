@@ -1,5 +1,5 @@
 # gag-search-dashboard
-Script for quantification of glucosaminoglycans (GAGs) based on Proteome Discoverer output, with web-interface powered by Bokeh
+## Script for quantification of glucosaminoglycans (GAGs) based on Proteome Discoverer output, with web-interface powered by Bokeh
 
 The scripts work well in Python 3.7 and 3.8. The script for Proteome Discoverer intgration has only been tested in Windows, but the search and the web-interface have been working both in Windows 10 and Ubuntu 20.04.
 
