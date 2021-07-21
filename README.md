@@ -7,4 +7,9 @@ Developed for precursor quantification on the chondroitinase-digested glucosamin
 
 1. Create an SQLite database for storing the quantified chromatographic information using the *gagFeatureDB_create* script. I used a single SQLite database for all the GAG files regardless of the project. The format allows for a simple and fast access to each of the pre-processed files. The database contains information about the intensity, *m/z*, charge, number of detected isotopes and retention times for the LC-MS peaks for all the quantified LC-MS files.
 2. LC-MS raw files are processed in PD, Minora Feature Detection node quantifies the LC-MS features. The list of the quantified features is then saved into the SQLite database via the Scripting Node with the *gag_Minora-to-SQlite* script. An example of a database containing the quantification results for a few files can be found in this repository (*gagFeaturesDB_v210710.db*).
-3. The SQLite 
+3. When all the interesting LC-MS files have been pre-processed, we can launch the web-interface: 
+```
+bokeh serve --show gag-search-web
+```
+
+4. Results
