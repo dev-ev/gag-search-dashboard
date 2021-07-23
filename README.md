@@ -14,14 +14,14 @@ dp2S0_int	0	1	0	379.1115	0	1000
 dp2S0NS1_int	1	1	0	417.0577	0	1000
 ...
 ```
-Where the columns are as follows:
-      1) unique name of the glycan
-      2) number of sulfates
-      3) number of hexuronic acid residues
-      4) number of NeuAc residues
-      5) neutral monoisotopic mass of the molecule
-      6) minimal retention time in minutes
-      7) maximal retention time in minutes
+Where the columns are as follows:<br>
+      1) unique name of the glycan<br>
+      2) number of sulfates<br>
+      3) number of hexuronic acid residues<br>
+      4) number of NeuAc residues<br>
+      5) neutral monoisotopic mass of the molecule<br>
+      6) minimal retention time in minutes<br>
+      7) maximal retention time in minutes<br>
 
 I added the retention time columns for a potential future use, if there would be an extensive library of glycans with retention times. I haven't really used this option down the line.<br>
 The script *gag-lib-gen* is then applied to create a json library from each tab file. For each of the molecules in the tab file, the script creates the chemically intact forms, as well as sulfate loss forms (prevalent for sulfated sugars) and amine adduct forms (di-n-butylamine was used as an additive to the mobile phases). The charge states are decided based on the detectable *m/z* values and on empirical rules, depending on the number of sulfate and carboxyl groups. Examples of the tab files and json libraries can be located in the folder *lib-generator*.<br>
