@@ -22,6 +22,7 @@ Where the columns are as follows:
   5) neutral monoisotopic mass of the molecule
   6) minimal retention time in minutes
   7) maximal retention time in minutes
+
 I added the retention time columns for a potential future use, if there would be an extensive library of glycans with retention times. I haven't really used this option down the line.
 The script *gag-lib-gen* is then applied to create a json library from each tab file. For each of the molecules in the tab file, the script creates the chemically intact forms, as well as sulfate loss forms (prevalent for sulfated sugars) and amine adduct forms (di-n-butylamine was used as an additive to the mobile phases). The charge states are decided based on the detectable *m/z* values and on empirical rules, depending on the number of sulfate and carboxyl groups. Examples of the tab files and json libraries can be located in the folder *lib-generator*.
 2. Create an SQLite database for storing the quantified chromatographic information using the *gagFeatureDB_create* script. I used a single SQLite database for all the GAG files regardless of the project. The format allows for a simple and fast access to each of the pre-processed files. The database contains information about the intensity, *m/z*, charge, number of detected isotopes and retention times for the LC-MS peaks for all the quantified LC-MS files.
