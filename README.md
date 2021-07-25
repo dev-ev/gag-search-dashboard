@@ -37,7 +37,7 @@ bokeh serve --show gag-search-web
 ```
 The dashboard will open in the default web browser. If it does not, check the IP address and the port that are currently used by bokeh in the console.<br>
 
-<img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview1.png" alt="drawing" width="400"/>
+<img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview1.png" alt="drawing" width="600"/>
 
 The dropdown menu allows to select the GAG databases
 
