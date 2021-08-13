@@ -35,7 +35,7 @@ The script *gag-lib-gen* is then applied to create a json library from each tab 
 ```
 bokeh serve --show gag-search-web
 ```
-The dashboard will open in the default web browser. If it does not, check the IP address and the port that are currently used by bokeh in the console.<br>
+The dashboard will open in the default web browser. If it does not, check the command line console for the IP address and the port that are currently used by bokeh.<br>
 
 <img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview1.png" alt="drawing" width="600"/>
 
