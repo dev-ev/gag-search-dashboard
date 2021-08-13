@@ -39,7 +39,7 @@ The dashboard will open in the default web browser. If it does not, check the IP
 
 <img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview1.png" alt="drawing" width="600"/>
 
-The dropdown menu allows to select the GAG databases
+The dropdown menu allows to select the GAG database, one at a time.
 
 6. Results
 
