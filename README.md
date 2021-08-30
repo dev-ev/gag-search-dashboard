@@ -39,9 +39,11 @@ The dashboard will open in the default web browser. If it does not, check the co
 
 <img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview1.png" alt="drawing" width="600"/>
 
-The dropdown menu allows to select the GAG database, one at a time.
+The dropdown menus allows to select the GAG database and the LC-MS raw files. Multiple LC-MS files can be selected. Matching tolerance and filtering by intensity can be applied. When everything is ready, click "Start Search" button.
 
-6. Results
+6. When the search has been completed, the output files are saved in the local or network folder that had been specified in the *config.ini* file; the export path is also shown on the top of the search dashboard page. You can find examples of the output files in the [*output* folder](https://github.com/dev-ev/gag-search-dashboard/tree/main/output) in this repository. Each files gets the comprehensive *rep* file with the description of each matched species, as well as the short and long tabular reports.<br> The summary for the last file in the search queue is also displayed on the bottom of the dashboard. The bar plot represents relative precursor abundances of the main identified species, the table shows the the number of match ions, average retention time and sum signal intensity for the main glycans in the sample:
+
+<img src="https://github.com/dev-ev/gag-search-dashboard/blob/main/images/gag_search_overview2.png" alt="drawing" width="600"/>
 
 ### Search algorithm
 
